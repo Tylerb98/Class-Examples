@@ -15,7 +15,7 @@ public class MaxTest {
 		myInts.add(5);
 		myInts.add(-30);
 		
-		assertEquals(new Integer(12), Max.getMax(myInts));
+		assertEquals(new Integer(23), Max.getMax(myInts));
 	}
 
 }
