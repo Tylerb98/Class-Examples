@@ -1,0 +1,21 @@
+
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class GUI {
+	
+	public static void main(String[] args){
+		JFrame window = new JFrame("Venn Diagram");
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		//create text at top
+		JTextField subtitle = new JTextField("Venn Diagram of two disks");
+		window.add(subtitle);
+		
+		window.setSize(300, 300);
+		window.setVisible(true);
+		
+		
+	}
+}
